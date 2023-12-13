@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&family=Inter&display=swap');
+
+/* Variables */
+:root {
+  --pink-100: #D27487;
+  --pink-200: #4A2B33;
+  --black-100: #222;
+  --grey-100: #6F6F64;
+  --yellow-100: #AA9E54;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+button, input {
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  height: 58px;
+  border: 2px solid #6F6F64;
+  font-size: 15px;
+  opacity: 1;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Azeret Mono', monospace;
+}
+
+p {
+  font-size: 32px;
+}
